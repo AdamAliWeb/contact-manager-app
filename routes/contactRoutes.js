@@ -8,7 +8,7 @@ const {
   deleteContact,
 } = require("../controllers/contactController");
 
-router.route("/").get(getContact);
+router.route("/").get(getContacts);
 
 router.route("/").post(createContact);
 
